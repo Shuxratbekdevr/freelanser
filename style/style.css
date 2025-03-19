@@ -25,7 +25,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
+ button, input{
+    border: none;
+    outline: none;
+    background: none;
+ }
 
 /* start default class styling */
 
@@ -59,11 +63,11 @@ a{
     align-items: center;
    }
 
-   .header__logo{
+   /* .header__logo{
 
      
 
-   }
+   } */
 
    .header__links{
     gap: 20px;
@@ -77,9 +81,9 @@ a{
 
   /* start hero section styling */
 
-  .hero{
+  /* .hero{
 
-  }
+  } */
  
 
   .hero__span{
@@ -173,9 +177,9 @@ a{
     margin-bottom: 64px;
   }
 
-  .work__content img{
+  /* .work__content img{
 
-  }
+  } */
   .work__content h3{
     margin: 23px 0 16px;
     font-size: 24px;
@@ -207,9 +211,9 @@ line-height: 28px;
     
   }
 
-  .project__item__left{
+  /* .project__item__left{
 
-  }
+  } */
   .project__item__left img {
     width: 100%;
     height: 100%;
@@ -252,4 +256,117 @@ line-height: 28px;
 
 
 /* start footer section styling */
+
+.footer{
+    padding-bottom: 150px;
+}
+
+.footer__title{
+
+   
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 60px;
+
+}
+
+
+.footer__content{
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.footer__input{
+
+    max-width: 380px;
+    min-height: 410px;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    gap: 20px;
+
+    border-radius: 5px;
+
+    box-shadow: -5px 5px 0px 0px rgb(255, 196, 29);
+    background: rgb(255, 255, 255);
+}
+.footer__input p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer__input label{
+    width: 100%;
+    position: relative;
+
+    
+    border-radius: 5px;
+
+box-shadow: inset 0px 3px 10px 0px rgba(199, 199, 199, 0.25);
+background: rgb(248, 248, 248);
+}
+.footer__input label img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+
+
+}
+.footer__input input{
+    display: inline-block;
+    width: 100%;
+    padding-left: 100px;
+    padding: 18px 50px;
+
+
+}
+
+.footer__input button{
+    width: 100%;
+    padding: 25px 50px;
+    border-radius: 5px 5px 10px 10px;
+
+box-shadow: 0px 4px 0px 0px rgb(182, 133, 0);
+background: linear-gradient(180.00deg, rgb(253, 222, 118),rgb(255, 187, 1) 100%);
+
+
+color: rgb(46, 46, 48);
+font-size: 12px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+
+.footer__right{
+    max-width: 350px;
+}
+
+.footer__right h5{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-bottom: 30px;
+}
+
+.footer__right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
 /* end footer section styling */
